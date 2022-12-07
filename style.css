@@ -13,7 +13,15 @@ body {font-family:"Roboto", sans-serif; background-color: #1a1c20; justify-conte
   text-align: center;
   font-size: 15px;
   color: white;
-  
+  padding: 30px
+}
+
+section {
+  border: 2px dashed white;
+  border-radius: 6px;
+  text-align: center;
+  padding: 20px;
+
 }
 
 .heading{
@@ -61,16 +69,23 @@ body {font-family:"Roboto", sans-serif; background-color: #1a1c20; justify-conte
   margin-left:center;
 }
 
+.img-1 {
+    background-color: white;
+    height: 300px;
+    width:300px;
+    display: inline-block;
+    margin: auto;
 
+}
 #map {
   background-color: white;
     height: 500px;
-    width:55%;
-    margin-right:2%;
-    float: left;
-    margin-left: 30px;
+    width:500px;
 
+    display: inline-block;
  }
+
+
 button{
   appearance: button;
   -webkit-writing-mode: horizontal-tb !important;
